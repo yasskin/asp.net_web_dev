@@ -1,7 +1,7 @@
 namespace TreehouseDefense
 {
-  class Tower
+  class Path
   {
-    
+
   }
 }

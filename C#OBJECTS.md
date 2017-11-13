@@ -129,3 +129,48 @@ Without short-circuiting, accessing the Length property of the names array would
 *  Methods define an object's behaviors.
 
 ## Some methods return the result of their work as a return value.
+
+## Zero Base Counting. In programming, by convention we start counting from Zero.
+## Off by One Error. Programming error that forgets that we conventionally start counting from zero.
+
+## Static vs Instance Methods 6:24
+# with Jeremy McLain
+
+* Methods that are called directly on a class name are static methods.
+* Don't confuse them with instance methods which are called on unique instances of the class (AKA objects).
+
+## Overloading Methods 1:44
+## with Jeremy McLain
+* Multiple methods in the same class can have the same name. They're called overloaded methods.
+
+# Inheritance 3:35
+## with Jeremy McLain
+* We can create new types that inherit the attributes and behaviors of existing types.
+
+# Object-Oriented Programming Principles
+
+1. Encapsulation
+2. Inheritance
+3. Polymorphism
+4. Abstraction
+
+## Class is short for classification
+## Subclasses inherit the features of the parent Class
+
+# Base Class is also called:
+* Parent Class
+* Super Class
+
+# Sub Class is also called
+* Child Class
+* Derived Class
+
+Catching Exceptions5:02
+with Jeremy McLain
+Learn the ins and outs of catching exceptions and what all this has to do with inheritance.
+
+Exception Handling in C#
+https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/exceptions/exception-handling
+
+Best Practices for Exceptions
+https://docs.microsoft.com/en-us/dotnet/standard/exceptions/best-practices-for-exceptions

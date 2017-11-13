@@ -2,20 +2,28 @@ using System;
 
 namespace TreehouseDefense
 {
-  class Game
-  {
-    public static void Main()
+    class Game
     {
-      Map map = new Map(8, 5);
+        public static void Main()
+        {
+            Map map = new Map(8, 5);
 
-      try
-      {
-        MapLocation mapLocation = new MapLocation(20, 20, map);
-      }
-      catch(Exception)
-      {
-        Console.WriteLine("That map location is not on the map");
-      }
+            try
+            {
+              MapLocation mapLocation = new MapLocation(2, 2, map);
+            }
+            catch(OutOfBoundsException ex)
+            {
+              Console.WriteLine(ex.Message);
+            }
+            catch(TreehouseDefenseException)
+            {
+              Console.WriteLine("Unhandled TreehouseDefenseException!");
+            }
+            catch(Exception)
+            {
+                Console.WriteLine("Unhandled Exception");
+            }
+        }
     }
-  }
 }

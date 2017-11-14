@@ -1,4 +1,107 @@
+# C# OBJECTS - 310-Minute course
+
+## About this Course
+
+## In this course we'll build on what you learned in C# Basics. You'll learn about Object Oriented Programming (OOP). We'll use OOP to write the code for a tower defense game. After completing this course, you'll have learned most of the syntax of the C# programming language.
+
+## What you'll learn
+
+* Core Principles of Object Oriented Programming
+* Classes and Objects
+* Method, Properties, and Fields
+* For Loops
+* Arrays
+* Exceptions
+
+Object-Oriented Programming
+
+We'll discuss some of the basics concepts of object oriented programming and exactly what it means to be "object oriented". We'll learn the differences between objects and classes. Then we'll see how to create classes and objects in C#.
+
+ 13 steps
+
+Methods
+
+We'll learn about the role that methods play in OO.
+
+ 9 steps
+
+Inheritance
+
+We'll learn about one of the four core principles of OO: inheritance. We'll also learn how inheritance is used to create and handle custom exceptions.
+
+ 12 steps
+
+Encapsulation and Arrays
+
+We'll learn about another core principle of OO: encapsulation. We'll also learn all about arrays and put them to use in Treehouse Defense.
+
+ 10 steps
+
+* Array has Index / Items
+* Collections of objects can be stored in an array.
+
+```
+$ csharp
+csharp> string[] favoriteThings;
+csharp> string[] favoriteThings = new string[3];
+csharp> favoriteThings[0] = "sunshine";
+csharp> favoriteThings[0];
+csharp>
+csharp> string[] favoriteThings = new string[3]{"sunshine", "presents", "babies"};
+csharp> string[] favoriteThings = new []{"sunshine", "presents", "babies"};
+csharp> string[] favoriteThings = {"sunshine", "presents", "babies"};
+csharp> favoriteThings.Length
+```
+
+### null in C# means the absence of a variable
+
+## Encapsulation
+
+* Hide implementation details and make objects easy to use with encapsulation.
+
+* Coding Standard. Specifies how to name different types of variables. Document that specifies how to name different items in the code base.
+
+* Expose only what's absolutely necessary
+* Wrap it in a class and just expose the small set of operations
+* _ prefix for private fields / distinguishes between instance and
+* use private to restrict access
+* if a class is not declared public or private, by default it is private
+
+### The IndexOutOfRangeException is the array's way of telling us that we've tried to get or set an index that doesn't exist in the array. This is easily avoided.
+
+csharp> int[] a = new int[10];
+csharp> a[11]
+
+* Exceptions
+
+### Ternary If 2:53 with Jeremy McLain
+* This bit of syntactic sugar can reduce simple if / else conditionals to a single line.
+```
+return (pathStep < _path.Length) ? _path[pathStep] : null;
+```
+
+Null represents the absence of a value or object.
+
+?? null-coalescing operator
+https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/null-conditional-operator
+
+.? and .[] Null-conditional Operators
+https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/null-conditional-operators
+
+# Encapsulation with Properties
+
+### We'll learn about properties in C# and use them to provide good encapsulation in Treehouse Defense.
+
+* 16 steps
+
+# Loops and Final Touches
+
+### We'll finish Treehouse Defense by coding up the logic of the game. In the process we'll learn about more types of loops, constants, and static members.
+
+* 16 steps
+
 # Welcome 1:30
+
 ## with Jeremy McLain
 ## In this course, we'll build a tower defense game while we learn about how to do object oriented programming in C#.
 
